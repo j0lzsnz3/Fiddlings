@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('fonts/Gotham.eot');
+    src: url('fonts/Gotham.eot?#iefix')
+             format('embedded-opentype'),
+         url('fonts/Gotham.woff') format('woff'),
+         url('fonts/Gotham.ttf') format('truetype');
+}
+
+body { text-align: center; }
+
+header { color: black;}
+
+h1 { padding: 0; margin-top: -2vh; font-family: "Gotham"; }
+
+i { color: red;}
+
+a { color: #008080;}
+a:hover { color: #008080; }
+
+
+
+
+textarea:focus, input:focus, input[type]:focus {   
+    border-color: white;
+    box-shadow: 0 white;
+    outline: none;
+}
+
+.links { padding: 0; margin: 0;left: 0; padding-top: 2vh; padding-bottom: 30vh;}
+
+.btn-primary {
+    color: white;
+    background-color: #008080;
+    border-color: #008080; /*set the color you want here*/
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: white;
+    background-color: #008080;
+    border-color: #008080; /*set the color you want here*/
+}
