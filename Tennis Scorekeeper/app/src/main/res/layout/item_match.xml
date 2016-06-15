@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/AppTheme.Card.Margins"
+    android:id="@+id/card_match"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal">
+
+        <LinearLayout
+            android:id="@+id/layout_partner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/margin_normal"
+            android:paddingBottom="@dimen/margin_normal"
+            android:paddingLeft="@dimen/margin_normal"
+            android:paddingRight="@dimen/margin_normal"
+            android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="0">
+
+            <!-- Player One -->
+            <TableRow>
+                <TextView
+                    android:id="@+id/cardPlayerOneText"
+                    android:text="Player One"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_large"
+                    android:textColor="#555555" />
+                <TextView
+                    android:id="@+id/cardPlayerOneSetFive"
+                    android:text="1"
+                    android:gravity="end"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:paddingLeft="@dimen/margin_normal"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_large"
+                    android:textColor="#555555" />
+                <TextView
+                    android:id="@+id/cardPlayerOneSetFour"
+                    android:text="2"
+                    android:gravity="end"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/margin_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_large"
+                    android:textColor="#555555" />
+                <TextView
+                    android:id="@+id/cardPlayerOneSetThree"
+                    android:text="3"
+                    android:gravity="end"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/margin_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_large"
+                    android:textColor="#555555"/>
+                <TextView
+                    android:id="@+id/cardPlayerOneSetTwo"
+                    android:text="4"
+                    android:gravity="end"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/margin_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_large"
+                    android:textColor="#555555" />
+                <TextView
+                    android:id="@+id/cardPlayerOneSetOne"
+                    android:text="5"
+                    android:gravity="end"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/margin_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_large"
+                    android:textColor="#555555" />
+            </TableRow>
+
+            <!-- Player Two -->
+            <TableRow>
+                <TextView
+                    android:id="@+id/cardPlayerTwoText"
+                    android:text="Player Two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_large"
+                    android:textColor="#555555" />
+                <TextView
+                    android:id="@+id/cardPlayerTwoSetFive"
+                    android:text="1"
+                    android:gravity="end"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/margin_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_large"
+                    android:textColor="#555555" />
+                <TextView
+                    android:id="@+id/cardPlayerTwoSetFour"
+                    android:text="2"
+                    android:gravity="end"
+                    android:paddingLeft="@dimen/margin_normal"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_large"
+                    android:textColor="#555555" />
+                <TextView
+                    android:id="@+id/cardPlayerTwoSetThree"
+                    android:text="3"
+                    android:gravity="end"
+                    android:paddingLeft="@dimen/margin_normal"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_large"
+                    android:textColor="#555555"/>
+                <TextView
+                    android:id="@+id/cardPlayerTwoSetTwo"
+                    android:text="4"
+                    android:gravity="end"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/margin_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_large"
+                    android:textColor="#555555" />
+                <TextView
+                    android:id="@+id/cardPlayerTwoSetOne"
+                    android:text="5"
+                    android:gravity="end"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/margin_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_large"
+                    android:textColor="#555555" />
+            </TableRow>
+
+            <!-- Card Details -->
+            <TableRow android:paddingTop="@dimen/margin_normal">
+                <TextView
+                    android:id="@+id/cardDuration"
+                    android:text="Duration: 4:23"
+                    android:gravity="start"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_large"
+                    android:textColor="#555555" />
+
+                <TextView
+                    android:id="@+id/cardDate"
+                    android:text="6/22/2014"
+                    android:gravity="end"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_large"
+                    android:textColor="#555555" />
+            </TableRow>
+
+        </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
